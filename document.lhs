@@ -15,6 +15,14 @@
 
 %format <$> = "\mathbin{<\hspace{-1.6pt}\mathclap{\raisebox{0.1pt}{\scalebox{.8}{\$}}}\hspace{-1.6pt}>}"
 
+% The following helps ... be aligned to the left, when lhs2tex would otherwise
+% center columns, without having to use aligncolumn.
+% See https://github.com/kosmikus/lhs2tex/issues/22#issuecomment-373978543
+
+%if style /= newcode
+%format DOTS = "\dots"
+%endif
+
 \begin{document}
 
 \begin{tabular}{l}
@@ -22,6 +30,8 @@
 Haskell symbol \\
 \hline
  |<$>|         \\
+\hline
+ |DOTS|        \\
 \hline
 \end{tabular}
 
