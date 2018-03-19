@@ -1,6 +1,6 @@
 % Copyright (c) 2016 Ivan Perez, Manuel Baerenz
 % License: Attribution-NonCommercial-ShareAlike 4.0 International
-% 
+%
 % Note: You are allowed to use this to create commercial material, just not to
 % sell the contents of the lhs2tex file for profit.
 
@@ -25,13 +25,13 @@
 
 \begin{document}
 
-\begin{tabular}{l}
+\begin{tabular}{ll}
 \hline
-Haskell symbol \\
+Verbatim symbol & Haskell symbol \\
 \hline
- |<$>|         \\
+\verb@<$>@      & |<$>|         \\
 \hline
- |DOTS|        \\
+\verb@...@      & |DOTS|        \\
 \hline
 \end{tabular}
 
